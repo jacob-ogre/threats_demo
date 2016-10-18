@@ -42,8 +42,8 @@ dashboardPage(
           )
         ),
         column(4,
-          helpText("We have developed a method to score the status 
-            of threats a species faces and the species' biological 
+          helpText("Defenders of Wildlife has developed a method to score the 
+            status of threats a species faces and the species' biological 
             (i.e., demographic) status. The scores can range from 
             -1 (threats are worsening / demographic status is 
             deteriorating) to +1 (threats are ameliorated / 
@@ -66,9 +66,11 @@ dashboardPage(
           helpText("By extracting past scores we can better
             understand how the species has fared - in terms 
             of both threat and demographic changes - over an 
-            extended period. These data are for illustration 
-            only, but will provide much-needed information 
-            when dynamic recovery plans are fully implemented."
+            extended period.",
+            tags$span(style = "font-weight:bold", 
+              "These data are for illustration  only, but will provide 
+              much-needed information  when dynamic recovery plans are fully 
+              implemented."
           )
         )
       )
