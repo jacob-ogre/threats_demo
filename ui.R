@@ -70,7 +70,7 @@ dashboardPage(
             tags$span(style = "font-weight:bold", 
               "These data are for illustration  only, but will provide 
               much-needed information  when dynamic recovery plans are fully 
-              implemented."
+              implemented.")
           )
         )
       )
